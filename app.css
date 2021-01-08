@@ -1,0 +1,390 @@
+@font-face {
+  font-family: "AktivGrotesk-m";
+  src: url("fonts/AktivGroteskCorp-Medium.eot");
+  src: local("fonts/AktivGroteskCorp-Medium"),
+    url("fonts/AktivGroteskCorp-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Medium.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Medium.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "aktiv-grotesk";
+  src: url("https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-b";
+  src: url("fonts/AktivGroteskCorp-Bold.eot");
+  src: local("fonts/AktivGroteskCorp-Bold"),
+    url("fonts/AktivGroteskCorp-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Bold.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Bold.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-italic";
+  src: url("fonts/AktivGroteskCorp-Italic.eot");
+  src: local("fonts/AktivGroteskCorp-Italic"),
+    url("fonts/AktivGroteskCorp-Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Italic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Italic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-light-italic";
+  src: url("fonts/AktivGroteskCorp-LightItalic.eot");
+  src: local("fonts/AktivGroteskCorp-LightItalic"),
+    url("fonts/AktivGroteskCorp-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-LightItalic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-LightItalic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-medium-italic";
+  src: url("fonts/AktivGroteskCorp-MediumItalic.eot");
+  src: local("fonts/AktivGroteskCorp-MediumItalic"),
+    url("fonts/AktivGroteskCorp-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-MediumItalic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-MediumItalic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-l";
+  src: url("fonts/AktivGroteskCorp-Light.eot");
+  src: local("fonts/AktivGroteskCorp-Light"),
+    url("fonts/AktivGroteskCorp-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Light.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Light.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-r";
+  src: url("fonts/AktivGroteskCorp-Regular.eot");
+  src: local("fonts/AktivGroteskCorp-Regular"),
+    url("fonts/AktivGroteskCorp-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Regular.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Regular.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-bold-italic";
+  src: url("fonts/AktivGroteskCorp-BoldItalic.eot");
+  src: local("fonts/AktivGroteskCorp-BoldItalic"),
+    url("fonts/AktivGroteskCorp-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-BoldItalic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-BoldItalic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("https://use.typekit.net/af/e10446/00000000000000003b9ad13a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/e10446/00000000000000003b9ad13a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/e10446/00000000000000003b9ad13a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "aktiv-grotesk", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images img {
+  cursor: pointer;
+  width: 350px;
+  object-fit: cover;
+}
+
+/* !!! CSS FOR LIGHTBOX !!!!!!! */
+
+/* !!! CSS FOR LIGHTBOX !!!!!!! */
+
+/* !!! CSS FOR LIGHTBOX !!!!!!! */
+
+/* !!! CSS FOR LIGHTBOX !!!!!!! */
+
+/* !!! CSS FOR LIGHTBOX !!!!!!! */
+
+.image-modal {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  background: #11181f;
+  pointer-events: none;
+}
+
+.image-modal-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #11181f;
+  display: flex;
+  position: relative;
+  overflow-y: auto !important;
+}
+
+.image-modal-closeBtn-container {
+  position: absolute;
+  top: 27px;
+  right: 27px;
+}
+
+.image-modal-closeBtn {
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 50px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.image-modal-closeBtn span {
+  position: absolute;
+  width: 31px;
+  height: 2px;
+  background: #e1e1e1;
+}
+
+.image-modal-closeBtn span:nth-child(1) {
+  transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
+}
+
+.image-modal-closeBtn span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.image-modal-slider {
+  width: 100%;
+  height: 320px;
+  margin-top: 116px;
+  position: relative;
+}
+
+.image-modal-swiper-container {
+  height: 320px;
+}
+
+.image-modal-swiper-slide {
+  width: 100%;
+  padding: 0 15px;
+  min-height: 290px;
+  overflow: hidden;
+}
+
+.image-modal-swiper-slide img {
+  width: 100%;
+  min-height: 237px;
+  object-fit: cover;
+}
+
+.image-modal-swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
+
+.image-modal-swiper-pagination .swiper-pagination-bullet {
+  background: #585757;
+  outline: none;
+}
+
+.image-modal-prev,
+.image-modal-next {
+  display: none !important;
+  outline: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-modal-prev {
+  background-image: url("./images/slider-left-arrow.svg");
+}
+
+.image-modal-next {
+  background-image: url("./images/slider-right-arrow.svg");
+}
+
+.image-modal-prev:after,
+.image-modal-next::after {
+  display: none;
+}
+
+@media (min-width: 380px) {
+  .image-modal-swiper-container {
+    height: 500px;
+  }
+}
+
+@media (min-width: 576px) {
+  .image-modal-slider .image-modal-swiper-container {
+    height: 400px;
+    max-width: 416px;
+  }
+  .image-modal-slider {
+    max-width: 550px;
+    margin: 120px auto 120px auto;
+  }
+  .image-modal-prev,
+  .image-modal-next {
+    display: flex !important;
+  }
+  .image-modal-swiper-wrapper {
+    max-width: 416px;
+    max-height: 277px;
+  }
+  .image-modal-swiper-slide {
+    padding: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-height: 400px) {
+  .image-modal-slider {
+    margin: 0 auto;
+  }
+  .image-modal-swiper-wrapper {
+    margin-top: 20px;
+  }
+  .image-modal-slider .image-modal-swiper-container {
+    height: 360px;
+  }
+
+  .image-modal-closeBtn-container {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+  .image-modal-swiper-slide {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-modal-slider .image-modal-swiper-container {
+    height: 450px;
+    max-width: 591px;
+  }
+  .image-modal-slider {
+    max-width: 750px;
+  }
+  .image-modal-swiper-wrapper {
+    max-width: 591px;
+    max-height: 393px;
+  }
+}
+@media (min-width: 700px) and (max-height: 450px) {
+  .image-modal-slider {
+    margin: 0 auto;
+  }
+  .image-modal-swiper-wrapper {
+    margin-top: 20px;
+  }
+  .image-modal-slider .image-modal-swiper-container {
+    height: 330px;
+  }
+  .image-modal-closeBtn-container {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+  .image-modal-swiper-slide {
+    width: 200px;
+    height: 200px;
+  }
+
+  .image-modal-swiper-slide img {
+    object-fit: cover;
+    height: 200px;
+  }
+  .image-modal-container {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-modal-slider .image-modal-swiper-container {
+    height: 620px;
+    max-width: 826px;
+  }
+  .image-modal-slider {
+    max-width: 950px;
+    height: 620px;
+    margin: 0 auto;
+  }
+  .image-modal-swiper-wrapper {
+    max-width: 826px;
+    max-height: 550px;
+  }
+  .image-modal-container {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1500px) and (min-height: 800px) {
+  .image-modal-slider .image-modal-swiper-container {
+    height: 770px;
+    max-width: 1030px;
+  }
+
+  .image-modal-container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .image-modal-slider {
+    max-width: 1150px;
+    margin: auto;
+    height: 770px;
+  }
+  .image-modal-swiper-wrapper {
+    max-width: 1030px;
+    max-height: 686px;
+    height: 100%;
+    margin-top: 30px;
+  }
+}
